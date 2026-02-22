@@ -1,0 +1,31 @@
+01) Git Initialization (from working directory to Initialization)
+    git Init
+02) Add file to stage area
+    git add filename
+    git add .
+03) save in local repository
+    git commit -m "added file"
+04) push local repository data to remote repository
+    git remote add origin originURL
+    git branch -M main
+    git push -u origin main
+05) To check status
+    git status
+06) To undo data from untrack file
+    git restore filename //"unchange data"
+07) To undo data from stage to unstage area
+    git restore --staged filename //"unchange data"
+08) To undo data from remote repository
+    git revert #Id //"unchange data from remote repository"
+09) To undo data from remote without history record
+    git reset HEAD~1 //bydefault it is mixed
+    git reset --soft HEAD~1 //undo data from remote but it exist in stage area
+    git reset --mixed HEAD~1 //undo data from remote but it available in unstage area
+    git reset --hard HEAD~1 //undo data from remote and not avaiable in local also
+10) To see the log history details
+    git log
+11) To see the log history details with oneliner
+    git log --oneline
+12) To see the help of git command
+    git --list
+13
