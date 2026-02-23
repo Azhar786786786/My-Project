@@ -42,5 +42,18 @@
     git branch -D third
 18) Merge branch from second to main
     git merge second
-    
+19) Ammendment comments
+    git commit --amend //It will use old one comment
+    git commit --amend -m "Login System DONE by Me" //it will update comment with old one
+20) Create a clone of existing repository
+    git clone repositoryURL //clone with extra directory
+    git clone repositoryURL . //clone in same directory
+    git clone --branch second repositoryURL
+    git clone --branch second repositoryURL .
+21) Fetch request
+    git fetch origin //only updates download not the full repository
+    git status  //check the status
+    git merge origin/main //merge the code from remote into local repository
+22) Pull request
+    git pull origin main //It is not safe because it is a combination of fetch and merge.
 
