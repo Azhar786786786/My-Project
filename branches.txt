@@ -40,4 +40,7 @@
     git switch -c fourth
 17) To delete any branch
     git branch -D third
+18) Merge branch from second to main
+    git merge second
     
+
